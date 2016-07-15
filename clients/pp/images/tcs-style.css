@@ -1,0 +1,933 @@
+/**---Extra styling for The Cup Store website--**/
+
+/***---------------------------[ GENERAL ]------------------------------***/
+
+body {
+	font-family: "museo-slab",sans-serif;
+	font-style: normal;
+	font-weight: 300;
+}
+
+
+
+a {
+	text-decoration: none;
+	color: #00afec;
+}
+
+a:hover,
+a:focus {
+	text-decoration: none;
+	color: deeppink;
+}
+
+a:focus {
+  outline: none;
+}
+
+.container {
+	padding-bottom: 5px;
+}
+
+@media (min-width: 768px) {
+	.container {
+	padding-bottom: 8px;
+}
+}
+
+h1, h2, h3 {
+	font-family: "museo-slab",sans-serif;
+	font-style: normal;
+	font-weight: 700;
+}
+
+/***---------------------------[ HEADER SECTION WITH NAV ]------------------------------***/
+
+.tcs-header {
+	padding-bottom: 135px;
+}
+
+@media (min-width: 768px) {
+	.tcs-header {
+	padding-bottom: 95px;
+  }
+}
+
+.navbar-default {
+	background-color: #FFF;
+}
+
+/*1st ROW: social media + phone*/
+.blacktop {
+	background-color: #000;
+	padding: 0 20px;
+	color: white;
+	padding-top: 14px;
+	font-size: 1.3em;
+}
+
+.social a {
+	color: white;
+	text-decoration: none;
+	padding-right: 15px;
+}
+
+.social a:hover {
+	color: deeppink;
+}
+
+
+.phone {
+	text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+.phone {
+	text-align: right;
+
+ }
+}
+
+/*styles phone call link on mobile*/
+.phone a {
+	color: white;
+	text-decoration: none;
+}
+
+.phone a:hover {
+	color: deeppink;
+	text-decoration: none;
+
+}
+
+/*makes phone# appear less link-like on desktop*/
+@media (min-width: 768px) {
+.phone a {
+	color: white;
+	text-decoration: none;
+  }	
+  .phone a:hover {
+	color: white;
+	text-decoration: none;
+  }	
+}
+
+/*2nd ROW: Logo + Navigation*/
+.navbar-brand {
+	padding: 4px 0 0 20px;
+}
+
+#tcsnavbar-links {
+	padding-right: 20px;
+}
+
+#tcsnavbar-links ul li a {
+	color: #5f5f5f;
+
+}
+
+#tcsnavbar-links ul li a:hover {
+	background-color: #eeeeee;
+	color: black;
+}
+
+.btn-primary {
+	background-color: #00afec;
+	border-color: #0296ce;
+	font-size: 1.1em;
+}
+
+.btn-primary:hover {
+	background-color: #0077c5;
+}
+
+.quote-btn {
+	background-color: #78d8fc;
+}
+
+/*Quote Request bar for mobile only*/
+.QR-bar {
+	background-color: #00afec;
+	font-size: 1.6em;
+	text-align: center;
+	padding: 10px 0 7px 20px;
+}
+
+.QR-bar a {
+	color: white;
+}
+.QR-bar a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+/****FLAG ICONS*****/
+.flag-icon-background {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.flag-icon {
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  width: 1.5em;
+  line-height: 0.8em;
+  margin: 0 0.2em;
+}
+
+.flag-icon:before {
+  content: "\00a0";
+}
+
+.flag-icon-ca {
+  background-image: url('../images/cdn-flag-icon.jpg');
+}
+
+.flag-icon-ca:hover {
+  background-image: url('../images/cdn-flag-icon-bw.jpg');
+}
+
+.flag-icon-ca-tsp {
+  background-image: url('../images/cdn-flag-icon-bw.jpg');
+}
+
+.flag-icon-ca-tsp:hover {
+  background-image: url('../images/cdn-flag-icon.jpg');
+}
+
+.flag-icon-us {
+  background-image: url('../images/us-flag-icon.jpg');
+}
+.flag-icon-us-tsp {
+ background-image: url('../images/us-flag-icon-bw.jpg');
+}
+
+.flag-icon-us:hover {
+  background-image: url('../images/us-flag-icon-bw.jpg');
+}
+.flag-icon-us-tsp:hover {
+ background-image: url('../images/us-flag-icon.jpg');
+}
+
+
+
+
+/***---------------------------[ HERO IMAGE ]------------------------------***/
+
+.jumbotron {
+	background-image: url('../images/home-hero-original.jpg');
+	background-size: cover;
+	text-align: center;
+	padding: 100px 0;
+}
+
+.hero img {
+	width: 90%;
+	margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+.hero img {
+	width: 60%;
+	margin-bottom: 20px;
+}
+}
+
+.hero-btn {
+	margin-bottom: 15px;
+	border: white solid 2px;
+	background-color: rgba(0,0,0,0.2);
+	width: 100%;
+	font-size: 1.4em;
+	padding: 15px 10px;
+}
+
+.hero-btn:hover {
+	border: white solid 2px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+/***--------------------------[ PAGE TITLE ]------------------------------***/
+
+.tcs-pagetitle {
+	color: white;
+	background-color: #707070;
+	padding: 55px 15px 25px 15px;
+	margin-bottom: 25px;
+}
+
+.tcs-pagetitle p {
+	font-size: 16px;
+	padding: 0;
+	text-align: center;
+}
+
+.tcs-pagetitle h1 {
+	text-align: center;
+}
+
+/*Desktop*/
+@media screen and (min-width: 768px) {
+.tcs-pagetitle {
+	margin-bottom: 45px;
+	padding: 25px 15px;
+}
+.tcs-pagetitle p {
+	font-size: 18px;
+	padding: 0 75px;
+ }
+}
+
+.tcs-pagetitle-flush {
+	color: white;
+	background-color: #707070;
+	text-align: center;
+	padding: 25px 15px;
+	margin-bottom: 0;
+}
+
+/***--------------------------[ FEATURETTE ]------------------------------***/
+
+.tcs-lead {
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.3;
+}
+
+@media (min-width: 768px) {
+  .tcs-lead {
+    font-size: 1.1em;
+  }
+}
+
+/***----------------------[ HOME PAGE: PROMO AREA ]------------------------***/
+
+
+.tcs-promos img {
+	padding: 6px;
+}
+
+.tcs-promos p {
+	font-size: 1.1em;
+}
+
+.tcs-callout {
+	background-color: #555555;
+	color: white;
+	padding: 20px;
+	margin-bottom: 20px;
+	font-size: 1.2em;
+}
+
+@media (min-width: 768px) {
+.tcs-callout img {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+} 
+
+.thumbnail h3 {
+	text-align: left;
+}
+
+
+/*---PROMO ON HOME PAGE---*/
+
+.thumbnail-special  {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #F5F5F5;
+  border: 1px solid #3b3b3b;
+  border-radius: 4px;
+  -webkit-transition: border .2s ease-in-out;
+       -o-transition: border .2s ease-in-out;
+          transition: border .2s ease-in-out;
+}
+.thumbnail-special > img,
+.thumbnail-special a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.thumbnail-special > img,
+.thumbnail-special a > img {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+a.thumbnail-special:hover,
+a.thumbnail-special:focus,
+a.thumbnail-special.active {
+  border-color: #337ab7;
+}
+.thumbnail-special .caption {
+  padding: 9px;
+  color: #333;
+}
+
+ .promo_banner {
+    position: relative;
+    top: 0;
+    left: 0;
+    background: rgb(215, 65, 12);
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    margin:2px 5px 1px 5px;
+  }
+
+
+/***----------------------[ HOME PAGE: TESTIMONIALS ]------------------------***/
+.splash {
+	background-color: red;
+	background-image: url('../images/cup-splash.jpg');
+	height: 400px;
+	border-bottom: 1px solid grey;
+}
+
+
+
+.tcs-customers {
+	padding: 20px;
+}
+
+.tcs-customers img {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+	.tcs-customers img {
+    width: 90%;
+ }
+}
+
+.tcs-quotes {
+	font-size: 1em;
+	padding-top: 20px;
+	padding-left: 5px;
+}
+
+.tcs-quotes h3 {
+	color: #00afec;
+}
+
+@media screen and (min-width: 768px) {
+.tcs-quotes {
+	font-size: 1.2em;
+	padding-top: 0;
+	padding-left: 30px;
+ }
+}
+
+
+
+
+/***--------------------------[ PRODUCTS: MENU ]----------------------------***/
+
+.tcs-products {
+	padding-bottom: 25px;
+}
+
+.tcs-category {
+	color: #666;
+	text-decoration: none;
+	text-align: center;
+}
+
+.tcs-category:hover {
+	color: #00afec;
+	text-decoration: none;
+}
+
+.tcs-lead-sm {
+	font-size: 1.1em;
+}
+
+.tcs-lead-med {
+	 font-size: 16px;
+}
+
+.tcs-lead-med a:hover {
+	 text-decoration: none;
+	 color: deeppink;
+}
+
+@media (min-width: 768px) {
+  .tcs-lead-med {
+    font-size: 17px;
+  }
+}
+
+/***--------------------------[ PRODUCTS: CATEGORIES ]----------------------------***/
+
+.tcs-product {
+	text-align: center;
+}
+
+.tcs-product img {
+	width: 130px;
+}
+
+.tcs-lid {
+	text-align: center;
+}
+
+.tcs-lid img{
+	width: 100px;
+	margin-top: 20px;
+}
+
+/*****PRICING TABLES*****/
+
+.tcs-table thead tr th {
+	font-weight: bold;
+}
+
+.tcs-table tbody tr th{
+	font-weight: normal;
+}
+
+.panel {
+	margin-top: 35px;
+}
+
+.tabletip {
+	color: deeppink;
+}
+
+
+/***Glassware titles***/
+.glass-title {
+	color: deeppink;
+	padding-top: 15px;
+}
+
+/*****VOLUME and MULTI Discounts section*****/
+
+.tcs-discount1 {
+	background-color: #00afec;
+	color: white;
+	padding: 10px;
+	margin-bottom: 8px;
+}
+
+.tcs-discount1 p {
+	font-size: 1em;
+	text-align: center;
+}
+
+.tcs-discount1 h2 {
+	text-align: center;
+}
+
+.tcs-discount2 {
+   background-color: #eeeeee;
+	padding: 25px;
+	margin-bottom: 20px;
+	font-size: 1.1em;
+}
+
+
+@media screen and (min-width: 768px) {
+.tcs-discount1 {
+	padding: 30px;
+	margin-bottom: 20px;
+	font-size: 1.1em;
+
+}
+.tcs-discount1 p {
+	font-size: 1.1em;
+	text-align: left;
+}
+.tcs-discount1 h2 {
+	text-align: left;
+}
+}
+
+@media screen and (min-width: 768px) {
+.tcs-discount2 {
+	padding: 30px;
+}
+}
+
+/****JAVA mention****/
+.java {
+	padding-top: 25px;
+}
+
+
+/***---------------------------[ ORDER INFORMATION ]------------------------------***/
+
+.hero-production {
+	color: white;
+	background-image: url('../images/hero-production.jpg');
+	padding:20px 10px;
+	line-height: 20px;
+}
+
+.hero-production p {
+	font-size: 1.2em;
+}
+
+.hero-production h2 {
+	text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+.hero-production {
+	padding:40px 300px 40px 60px;
+	text-align: left; 
+	line-height: 30px;
+	font-size: 1.3em;
+}	
+.hero-production h2 {
+	text-align: left;
+}
+}
+
+.tcs-order {
+	padding: 7px;
+	text-align: center;
+}
+
+.tcs-order p, h2 {
+	text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+.tcs-order {
+	font-size: 1.2em;
+	padding: 20px;
+}
+}
+
+.cc-logos {
+	font-size: 3em;
+	padding-right: 30px;
+	color: #555555;
+}
+
+.hero-shipping {
+	color: white;
+	text-shadow: black 0.2em 0.1em 0.2em;
+	background-image: url('../images/hero-shipping.jpg');
+	padding:20px 5px;
+	line-height: 23px;
+}
+
+.hero-shipping p {
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.hero-shipping h2 {
+	text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+.hero-shipping {
+	line-height: 28px;
+	padding: 40px 30px 40px 0;
+	margin-bottom: 3px;
+}
+
+.hero-shipping p {
+	font-size: 1.3em;
+	text-align: right;
+}
+
+.hero-shipping h2 {
+	text-align: right;
+}
+}
+
+/***---------------------------[ ABOUT US ]------------------------------***/
+
+.tcs-lead-about {
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.tcs-block {
+	color: black;
+	margin-top: 0;
+}
+
+.tcs-img-block {
+	background-image: url('../images/test-about4.jpg');
+	background-size: cover;
+	height: 350px;
+}
+
+.tcs-txt-block {
+	padding: 20px 30px;
+	font-size: 1.1em;
+}
+
+.tcs-txt-block h2 {
+	color: deeppink;
+}
+
+
+.tcs-icon-block {
+	padding-left: 100px;
+	padding-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+.tcs-icon-block {
+	padding-top: 50px;
+	padding-left: 15px;
+}
+
+.tcs-txt-block {
+	padding: 20px 10px 10px 40px;
+	font-size: 1.2em;
+}
+}
+
+.logos {
+	margin-bottom: 20px;
+	border-top: 3px solid #eeeeee;
+	border-bottom: 3px solid #eeeeee;
+}
+
+@media screen and (min-width: 768px) {
+.logos {
+	padding: 15px 100px;
+	margin-bottom: 0;
+}
+}
+
+/*High Volume section*/
+.tcs-volume {
+	background-image: url('../images/about-volume.jpg');
+	background-size: cover;
+	height: 250px;
+}
+
+.tcs-volume-txt {
+	padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+.tcs-volume-txt {
+	padding: 20px 0 10px 0;
+}
+}
+
+
+.callout-volume {
+	background-color: #00afec;
+	color: white;
+	padding: 5px 10px;
+	font-size: 1.1em;
+	margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+.callout-volume {
+	padding: 10px 0 15px 0;
+	font-size: 1.3em;
+	margin-bottom: 30px;
+	}
+}
+
+/*Featurette - the Biz*/
+
+.tcs-right {
+	padding:5px;
+}
+
+.tcs-right p, h2 {
+	text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+	.tcs-right {
+	padding: 20px;
+}
+.tcs-right p {
+	text-align: right;
+}
+.tcs-right h2 {
+	text-align: right;
+}
+}
+
+
+/*Big hero image of shop at bottom of page*/
+
+.hero-about {
+	color: rgba(255,255,255,0.8);
+	background-image: url('../images/hero-about.jpg');
+	margin-bottom: 0;
+}
+
+.btn-hero-about {
+	margin-top: 30px;
+	border: white solid 2px;
+	background-color: rgba(0,0,0,0);
+	font-size: 1.4em;
+	padding: 15px 10px;
+	width: 200px;
+}
+
+.btn-hero-about:hover {
+	border: white solid 2px;
+	background-color: rgba(0,0,0,0.5);
+	color: deeppink;
+}
+
+
+
+/***--------------------------[ CONTACT US ]----------------------------***/
+
+.tcs-contact {
+	text-align: center;
+	font-size: 1.4em;
+	padding: 20px;
+}
+
+/*social media icons*/
+.tcs-contact a {
+	font-size: 2em;
+	padding-right: 25px;
+	text-align: center;
+}
+
+/*address boxes*/
+.tcs-address-box {
+	border-top: 1px #707070 solid;
+	padding-top: 30px;
+	padding-left: 30px;
+	text-align: left;
+	font-size: 0.9em;
+}
+
+.tcs-address-box a {
+	text-decoration: none;
+	color: #0077c5;
+	font-size: 1em;
+}
+
+.tcs-address-box a:hover {
+	text-decoration: none;
+	color: #00afec;
+	font-size: 1em;
+}
+
+@media screen and (min-width: 768px) {
+	.tcs-address-box {
+		border: 1px #707070 solid;
+		border-radius: 8px;
+		padding:25px;
+		margin-right: 20px;
+	}
+}
+
+/*flag pix*/
+.tcs-address-box img {
+	width:75px;
+ }
+@media screen and (min-width: 768px) {
+.tcs-address-box img {
+	width: 60px;
+ }
+}
+
+/*Google map */
+#map-canvas {
+	height: 350px;
+	margin-top: 25px;
+}
+
+
+
+/***-----------------------------[ FOOTER ]-----------------------------***/
+
+.tcs-footer {
+	background-color: black;
+	color: white;
+	padding: 15px 10px 20px 10px;
+}
+
+.tcs-footer hr {
+	color: grey;
+}
+
+.tcs-footer h3 {
+	color: deeppink;
+	font-size: 1em;
+	text-align: left;
+}
+
+.tcs-footer ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+/*footer link styles*/
+.tcs-footer a {
+	color: white;
+	text-decoration: none;
+}
+
+.tcs-footer a:hover {
+	color: #00afec;
+	text-decoration: none;
+}
+
+.footer-social a {
+	padding-right: 7px;
+}
+
+.footer-social hr {
+	color: #eeeeee;
+}
+/*For the email subscribe form*/
+.tcs-footer form {
+	color: black;
+}
+
+.tcs-footer form button {
+	margin-top: 10px;
+}
+
+/*For the copyright section*/
+.tcs-footer-mini {
+	padding-top: 9px;
+	font-size: 0.9em;
+}
+
+
+/***-----------------------------[ 404 ERROR ]-----------------------------***/
+
+
+.error {
+	margin-bottom: 30px;
+}
+
+.error p > a {
+	font-size: 1.4em;
+}
+
+@media screen and (min-width: 768px) {
+.error h1 {
+	padding-top: 50px;
+}
+}
+
+
+.home-ctr, .home-ctr h2 {
+	text-align: center;
+	padding: 5px 15px;
+}
+
+

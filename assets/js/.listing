@@ -1,0 +1,10 @@
+drwxr-xr-x    2 544      544          4096 Apr 02  2014 .
+drwxr-xr-x    6 544      544          4096 Apr 02  2014 ..
+-rw-r--r--    1 544      544          1713 Sep 15  2014 application.js
+-rw-r--r--    1 544      544         60483 Sep 15  2014 bootstrap.js
+-rw-r--r--    1 544      544         27757 Sep 15  2014 bootstrap.min.js
+-rw-r--r--    1 544      544         92635 Sep 15  2014 jquery.js
+-rw-r--r--    1 544      544          2913 Sep 15  2014 jquery.unveilEffects.js
+-rw-r--r--    1 544      544          1183 Sep 15  2014 jquery.unveilEffects.min.js
+-rw-r--r--    1 544      544          4041 Sep 15  2014 respond.min.js
+-rw-r--r--    1 544      544         21810 Sep 15  2014 typeahead.min.js
